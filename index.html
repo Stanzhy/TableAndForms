@@ -11,7 +11,9 @@
       <h1>Table and Forms</h1>
     </header>
     <table>
-      <caption>Intelprocessorer</caption>
+      <caption>
+        Intelprocessorer
+      </caption>
       <thead>
         <tr>
           <th>Namn</th>
@@ -47,12 +49,18 @@
         </tr>
       </tbody>
     </table>
-    <form action="tack.html" method="post">
+    <form action="tack.html" method="get">
       <h2>Add Processor</h2>
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" /><br /><br />
       <label for="year">År:</label>
-      <input type="number" min="1900" max="2026" id="year" name="year" /><br /><br />
+      <input
+        type="number"
+        min="1900"
+        max="2026"
+        id="year"
+        name="year"
+      /><br /><br />
       <label for="frequency">Klockfrekvens:</label>
       <input type="number" step="0.01" id="frequency" name="frequency" />
       <label for="frequency">MHz</label>
@@ -67,12 +75,7 @@
       <input type="radio" id="platform" name="platform" value="AMD" />
       <label for="platform">AMD</label><br /><br />
       <label for="boost">Boost:</label>
-      <input
-        type="checkbox"
-        id="boost"
-        name="boost"
-        value="yes"
-      />
+      <input type="checkbox" id="boost" name="boost" value="yes" />
       <label for="hyperThreading">Hyper-Threading:</label>
       <input
         type="checkbox"
