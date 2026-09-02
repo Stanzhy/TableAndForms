@@ -1,0 +1,77 @@
+header {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+caption {
+  font-size: 2em;
+  caption-side: bottom;
+  padding-top: 10px;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 25%;
+}
+
+table {
+  width: 600px;
+  background-color: gold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+th {
+  background-color: rgb(239, 239, 239);
+  height: 30px;
+}
+
+td {
+  height: 30px;
+}
+
+th:first-child {
+  text-align: left;
+}
+
+td:nth-child(2),
+td:nth-child(3) {
+  text-align: center;
+}
+
+td:nth-last-child(1),
+th:nth-last-child(1) {
+  text-align: right;
+}
+
+tbody tr:nth-child(even) {
+  background-color: red;
+  color: white;
+}
+
+form {
+  padding: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+label[for="gender"] {
+  width: 60px;
+}
+
+label[for="country"] {
+  width: 110px;
+}
+
+button {
+  margin-left: 100px;
+  padding: 10px;
+}
